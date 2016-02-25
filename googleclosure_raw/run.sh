@@ -1,0 +1,2 @@
+# ADVANCED_OPTIMIZATIONS | SIMPLE_OPTIMIZATIONS | WHITESPACE_ONLY
+closure-library/closure/bin/build/closurebuilder.py   --root=closure-library/   --root=myproject/   --namespace="myproject.start"   --output_mode=compiled   --compiler_jar=compiler.jar   --compiler_flags="--js=closure-library/closure/goog/deps.js"   --compiler_flags="--compilation_level=ADVANCED_OPTIMIZATIONS"   > myproject/start-compiled.js

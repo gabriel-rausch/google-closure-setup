@@ -1,0 +1,17 @@
+{
+  "author": "gabriel rausch",
+  "name": "grunt-google-closure",
+  "version": "0.0.1",
+  "description": "Test setup for google closure in grunt context",
+  "repository": {},
+  "scripts": {
+    "start": "grunt connect"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-connect": "latest",
+    "google-closure-compiler": "latest",
+    "google-closure-library": "latest"
+  }
+}
